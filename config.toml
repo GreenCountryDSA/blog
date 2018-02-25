@@ -1,24 +1,24 @@
 baseurl = "https://gcdsa.org/"
 title = "Green Country DSA"
 themesDir = "./themes"
-theme = "whiteplain"
-languageCode = "en"
+theme = "kiera"
+languageCode = "en-us"
 # Disqus shortname
 #disqusShortname = ""
 # google analytics tracking id
 #googleAnalytics = ""
 pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
+#pygmentsUseClasses = true
+#pygmentsOptions = "linenos=table"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2017 Green Country DSA"
 
-[params]
-  # Date format
-  dateFormat = "January 2, 2006"
+#[params]
+#  # Date format
+#  dateFormat = "January 2, 2006"
 
 # This is displayer in About page.
-[params.author]
+[author]
   name = "Green Country DSA"
 
   # Gravatar or Abatar image
@@ -35,7 +35,7 @@ copyright = "&copy; Copyright 2017 Green Country DSA"
   #linkedin = "Linkedin username"
   #slideshare = "Slideshare username"
   youtube = "channel/UC2NbkfmkLzb1uhX482Czlzg"
-  github = "GreenCountryDSA"
+#  github = "GreenCountryDSA"
   #gitlab = "Gitlab username"
   #bitbucket = "Bitbucket username"
   #stackoverflow = "Stackoverflow username"
@@ -58,34 +58,34 @@ copyright = "&copy; Copyright 2017 Green Country DSA"
   #vine = "Vine username"
   email = "tulsa.dsa@gmail.com"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+#[taxonomies]
+#  category = "categories"
+#  tag = "tags"
+#  series = "series"
 
-[[menu.main]]
-  name = "Categories"
-  weight = 1
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "Tags"
-  weight = 2
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Archives"
-  weight = 3
-  identifier = "archives"
-  url = "/archives/"
-[[menu.main]]
-  name = "About"
-  weight = 4
-  identifier = "about"
-  url = "/about/"
+#[[menu.main]]
+#  name = "Categories"
+#  weight = 1
+#  identifier = "categories"
+#  url = "/categories/"
+#[[menu.main]]
+#  name = "Tags"
+#  weight = 2
+#  identifier = "tags"
+#  url = "/tags/"
+#[[menu.main]]
+#  name = "Archives"
+#  weight = 3
+#  identifier = "archives"
+#  url = "/archives/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 4
+#  identifier = "about"
+#  url = "/about/"
 
-[[menu.footer]]
-  name = "About"
-  weight = 1
-  identifier = "about"
-  url = "/about/"
+#[[menu.footer]]
+#  name = "About"
+#  weight = 1
+#  identifier = "about"
+#  url = "/about/"
