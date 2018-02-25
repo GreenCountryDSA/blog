@@ -1,4 +1,4 @@
-baseurl = "https://gcdsa.org/"
+baseurl = "https://greencountrydsa.github.io/"
 title = "Green Country DSA"
 themesDir = "./themes"
 theme = "kiera"
